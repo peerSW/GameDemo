@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TPS_Demo.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E0B2F0DF-937F-4F62-A85C-F4CB125F7C64}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TPS_Demo.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TPS_DemoEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{06FCEB90-8DC6-4F4B-ACF9-1E439D7F4FB5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TPS_Demo">
+      <UniqueIdentifier>{61812FCA-10EF-4DC6-B6B2-B51AD718CF27}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TPS_Demo\TPS_Demo.Build.cs">
+      <Filter>Source\TPS_Demo</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TPS_Demo\TPS_Demo.cpp">
+      <Filter>Source\TPS_Demo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TPS_Demo\TPS_Demo.h">
+      <Filter>Source\TPS_Demo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TPS_Demo\TPS_DemoCharacter.cpp">
+      <Filter>Source\TPS_Demo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TPS_Demo\TPS_DemoCharacter.h">
+      <Filter>Source\TPS_Demo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TPS_Demo\TPS_DemoGameMode.cpp">
+      <Filter>Source\TPS_Demo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TPS_Demo\TPS_DemoGameMode.h">
+      <Filter>Source\TPS_Demo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
