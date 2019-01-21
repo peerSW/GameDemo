@@ -1,9 +1,9 @@
 #Unreal Generated Files#
-*/Binary
-*/Build
-*/Intermediate
-*/DerivedDataCache
-*/Saved
+/Binary
+/Build
+/Intermediate
+/DerivedDataCache
+/Saved
 
 #VS Generated Files#
 *.VC.db 
